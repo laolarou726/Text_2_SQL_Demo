@@ -1,4 +1,5 @@
-.idea
+/.idea
 .env
 graph.png
 Chinook.sqlite
+/__pycache__
