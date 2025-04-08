@@ -47,6 +47,7 @@ class SQLAgent:
         if self.print_debug_msg:
             print(self.db.dialect)
             print(self.db.get_usable_table_names())
+            print(self.db.get_table_info())
 
             test_query = os.getenv("DB_TEST_QUERY")
             print(test_query)
